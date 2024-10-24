@@ -1,0 +1,467 @@
+@charset "UTF-8";
+
+/*共通部分--------------------------------------*/
+html{
+    font-size: 100%;
+}
+body{
+    font-family: "Baloo 2 Regular","Baloo-cyrillic";
+    line-height: 1.7;
+    color: black;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+.logo{
+    width: 100px;
+    margin-top: 14px;
+}
+
+
+/*HEADER--------------------------------------*/
+header{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    padding: 20px 60px;
+    background: #fff;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-nav{
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 0 0 0 auto;
+    list-style: none;
+    align-items: center;
+}
+.main-nav li{
+    margin-left: 60px;
+}
+.main-nav a{
+    color: black;
+}
+.main-nav a:hover{
+    color: #C7C7D2;
+}
+
+.page-header{
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+/*ハンバーガーメニュー*/
+.menu{
+    display: none;
+}
+
+
+/*TOP--------------------------------------*/
+.home-content{
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-top: 10%;
+}
+.page-title{
+    font-size: 60px;
+    font-family: Baloo Cyrillic; 
+    font-weight: normal;
+    margin-top: 100px;
+}
+.home-content p{
+    font-size: 1.125rem;
+    margin-top: 0 42px;
+    white-space: nowrap;
+}
+
+
+/*ABOUT--------------------------------------*/
+.about{
+    margin-top: 200px;
+}
+.about h2{
+    text-align: center;
+}
+.about-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-left: -100px;
+}
+.about p{
+    text-align: left;
+    margin-left: 200px;
+}
+.p1{
+    font-size: 24px;
+}
+.p2{
+    display: flex;
+    margin-top: 10px;
+    width: 300px;
+    overflow-wrap: normal;
+}
+.about-wrapper img{
+    width:300px; 
+    height:300px;
+    margin-left: 200px;
+}
+
+
+/*TOP-WORKS--------------------------------------*/
+.works-container{
+    display: flex;
+    color: black;
+    justify-content: center;
+    text-align: center;
+}
+.works h2{
+    text-align: center;
+}
+.works-container img{
+    width:300px;
+    height:300px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+.works-container a{
+    display: inline-block;
+    font-size: 24px;
+    color: black;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.works-container a:hover{
+    color: #C7C7D2;
+}
+.websites{
+    width: 100px;
+}
+.others{
+    width: 100px;
+}
+
+
+/*TOP-CONTACT--------------------------------------*/
+.contact {
+    margin-top: 100px; 
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.contact-title h2{
+    text-align: center;
+    margin-top: 200px;
+}
+.contact p{
+    background-color: #fff;
+    margin-top: 100px;
+}
+
+.round-button {
+    display: inline-block;
+    margin-left: 600px;
+    margin-top: -50px;
+    width: 200px;
+    height: 200px;
+    background-image:url('../img/click.png');
+}
+
+.round-button:hover {
+    background-image: url('../img/click2.png'); 
+}
+
+
+/*footer--------------------------------------*/
+footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.copy{
+    background-color: white;
+}
+.copy p{
+    color: black;
+    font-size: 20px;
+    margin-right: 100px;
+}
+.footer-container{
+    margin-left: 200px;
+}
+.footer-container img{
+    width: 50px;
+    height: 50px;
+}
+.x{
+    margin-left: 50px;
+}
+
+
+/*WEBSITES--------------------------------------*/
+.web {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}
+.websites h2{
+    text-align: center;
+}
+.web img {
+    margin-bottom:200px;
+    margin-top: 100px;
+}
+.website-text{
+    width: 200px;
+    margin-right: 700px;
+    margin-top: -200px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+}
+.website-text a{
+    font-weight: bold;
+    color: black;
+}
+
+
+/*CONTACT--------------------------------------*/
+.big-bg{
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+#contact-page{
+    background-image: url(../img/Frenchbull.jpg);
+    min-height: 100vh;
+}
+
+.contact-form {
+    width: 45%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(249, 249, 249, 0.8);
+    position: relative;
+}
+.contact-title2{
+    text-align: center;
+    font-weight: normal;
+    color:black;
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 450px;
+    background-color: rgba(249, 249, 249, 0.8);
+}
+.contact-text{
+    margin: 0 auto;
+    font-weight: normal;
+    background-color: rgba(249, 249, 249, 0.8);
+    overflow-wrap: normal;
+    width: 450px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #b0b0b0;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+.contact-form input[type="submit"] {
+    width: 30%;
+    padding: 10px;
+    background-color: #73D6A9;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: rgba(181, 236, 214, 0.8);
+}
+
+
+
+/*モバイル版--------------------------------------*/
+@media screen and (max-width: 600px){
+.page-title{
+        font-size: 2.5rem;
+    }
+
+/*HEADER*/
+.page-header{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+}
+.main-nav{
+    display: flex;
+    font-size: 0.8rem;
+    width: 100%;
+    margin: 0 auto;
+}
+.main-nav li{
+    margin: 0 30px;
+    min-width: 0;
+}
+
+
+/*TOP*/
+.home-content{
+    flex-direction: column;
+    margin-top: 40%;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    margin-top: 300px;
+}
+
+.page-title,
+.home-content p{
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*ABOUT*/
+.about{
+    margin-top: 100px;
+    width: 100%;
+}
+.about h2{
+    text-align: center;
+}
+.about-wrapper{
+    flex-direction: column-reverse;
+    margin-top: 70px;
+}
+.about-wrapper p{
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.about img{
+    width: 250px;
+    height: 250px;
+    margin-top: -50px;
+    margin-bottom: -100px;
+    margin-right: -100px;
+}
+
+/*WORKS*/
+.works{
+    flex-direction: column;
+    width: 100%;  
+}
+ .works-container{    
+    flex-direction: column;
+    align-items: center;
+}
+.works-container img {
+    max-width: 100%;
+    height: auto;
+}
+.websites{
+    text-align: center;
+    margin-top: -50px;
+}
+.others{
+    text-align: center;
+    margin-top: -50px;
+    margin-left: -5px;
+}
+
+/*CONTACT-TOP*/
+.contact{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.contact-text{
+    inline-size: 250px;
+    overflow-wrap: break-word;
+    text-align: center;
+}
+.round-button{
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 50px;
+    
+}
+footer{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.copy{
+    text-align: center;
+}
+
+/*WEBSITES*/
+.web{
+    width: 100%;
+}
+.web img{
+    align-self: center;
+    width: 100%;
+}
+.website-text{
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    margin-top: -200px;
+}
+
+/*CONTACT*/
+.contact-title2{
+    width: 90%;
+    text-align: center;
+}
+.contact-text{
+    width: 90%;
+}
+.contact-form{
+    width: 90%;
+}
+
+}
